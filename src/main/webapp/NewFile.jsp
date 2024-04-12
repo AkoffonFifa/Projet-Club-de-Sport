@@ -6,7 +6,7 @@
     <title>Accueil - Clubs Sportifs</title>
     <link rel="stylesheet" href="NewFile.css"> <!-- Lien vers votre fichier de styles CSS -->
 </head>
-<body>
+<body class="body">
     <header>
         <h1> Clubs Sportifs</h1>
         <nav>
@@ -14,7 +14,7 @@
                 <li><a href="">Accueil</a></li>
                 <li><a href="">Clubs</a></li>
                 <li><a href="">Fédérations</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="contact.jsp">Contact</a></li>
                 <li><a href="inscription.jsp">inscription</a></li>
                 <li><a href="connexion.jsp">Connexion</a></li>
             </ul>
@@ -25,7 +25,8 @@
         <section>
             <h2>Bienvenue sur notre Plate-forme des Clubs Sportifs</h2>
             <p>Welcom to a real world where your passion becomes a life style.</p>
-            <p>Président de club, entraîneur, sportif licencié, ou simplement un passionné de sport, vous trouverez ici les outils nécessaires pour faciliter votre expérience c'est garanti .</p>
+            <p>Président de club, entraîneur, sportif licencié, ou simplement un passionné de sport</p>
+            </p> vous trouverez ici les outils nécessaires pour faciliter votre expérience c'est garanti .</p>
         </section>
 
         <section id="features">

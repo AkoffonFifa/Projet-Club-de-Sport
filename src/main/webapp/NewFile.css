@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   /*background-image: url('images/b.jpg');  Chemin vers votre image de fond */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10;
+}
+
+main {
+    padding: 80px;
+    text-align: center;
+   
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+
+   /* Dans votre fichier CSS (par exemple NewFile.css) */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000; /* couleur de fond du footer */
+    color: #fff; /* couleur du texte du footer */
+    padding: 10px;
+    text-align : center ; 
+}
+/* Dans votre fichier NewFile.css */
+
+/* Ajoutez du style pour les sections */
+section {
+    margin-bottom: 20px; /* Ajoute un espace entre les sections */
+}
+
+/* Style pour les fonctionnalités principales */
+ 
+
+/* Dans votre fichier NewFile.css */
+/* Style pour les sections */
+section {
+    margin-bottom: 20px; /* Ajoute un espace entre les sections */
+}
+
+
+
+form button {
+    margin-top: 10px; /* Ajoute de l'espace au-dessus du bouton */
+}
+

@@ -5,13 +5,12 @@ package dao;
  * Fichier permettant d'importer un fichier CSV dans une table MySQL
  * Ce Script utilise le mode transactionnel afin de respecter l'approche ACID (Atomicité, Cohérence, Isolation, Durabilité) 
  * qui permet d'assurer l'intégrité des données au sein d'une base de données. 
- * @author Serais Sébastien
  */
 import java.io.*;
 import java.sql.*;
 import java.util.Scanner;
 
-public class SendData {
+public class SendClubData{
 	// nom de la machine hôte qui héberge le SGBD Mysql
 	final static String host = "localhost";
 	// nom de la BDD sur le serveur Mysql
@@ -86,12 +85,19 @@ public class SendData {
 						stmt.setString(5, tab[4]);
 						stmt.setString(6, tab[5]);
 						stmt.setString(7, tab[6]);
-						stmt.setString(8, tab[7]);
+						stmt.setInt(8, Integer.parseInt(tab[7]));
 						stmt.setString(9, tab[8]);
-						stmt.setString(10, tab[9]);
-						stmt.setString(11, tab[10]);
-						stmt.setString(12, tab[11].trim());
-
+						stmt.setInt(10, Integer.parseInt(tab[9]));
+						stmt.setInt(11, Integer.parseInt(tab[10]));
+						
+						while (tab[11].endsWith(",") || tab[11].endsWith(" ")) {
+				            // Supprimer le dernier caractère
+							tab[11] = tab[11].substring(0, tab[11].length() - 1);
+				        }
+				        
+				        // Parser la chaîne en un entier
+				        int result = Integer.parseInt(tab[11]);
+						stmt.setInt(12, result);
 
 						 
 

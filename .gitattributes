@@ -1,3 +1,4 @@
+lib/lic-data-2019.csv filter=lfs diff=lfs merge=lfs -text
 *.classpath filter=lfs diff=lfs merge=lfs -text
 *.project filter=lfs diff=lfs merge=lfs -text
 *.jsdtscope filter=lfs diff=lfs merge=lfs -text

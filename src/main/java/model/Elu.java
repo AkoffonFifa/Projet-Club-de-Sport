@@ -1,8 +1,3 @@
-package model;
-
-public class Elu extends Utilisateur{
-	    // Constructeur avec paramètres
-	    public Elu(int id, String nom, String prenom, String email, String motDePasse) {
-	        super(id, nom, prenom, email, motDePasse, "elu");
-	    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7636cb06f79e336eb32fb57692dfbc71f03ce66657fd2dde3147e3808ae57696
+size 246

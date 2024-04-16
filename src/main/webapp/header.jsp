@@ -1,13 +1,3 @@
-<header>
-    <h1>Clubs Sportifs</h1>
-    <nav>
-        <ul>
-            <li><a href="">Accueil</a></li>
-            <li><a href="">Clubs</a></li>
-            <li><a href="">Fédérations</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="inscription.jsp">Inscription</a></li>
-            <li><a href="connexion">Connexion</a></li>
-        </ul>
-    </nav>
-</header>
+version https://git-lfs.github.com/spec/v1
+oid sha256:96f398289cb15cd2250a87ad22f8650a7a324b61acec4351a51206571c42d0de
+size 390
